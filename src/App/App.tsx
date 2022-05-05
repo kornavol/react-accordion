@@ -1,12 +1,12 @@
-import './App.css'
+import './App.scss'
+import Accordion from 'components/shared/Accodrion'
 
-import Accordion from 'components/shared/Accodrion/Accordion'
-import { data } from '../db/data'
+import { data } from 'db/data'
 
 function App() {
   return (
     <div className="App">
-      <h1>Accordion task</h1>
+      <h1 className='title'>Accordion task</h1>
       {data ? <Accordion data={data} /> : null}
     </div>
   )

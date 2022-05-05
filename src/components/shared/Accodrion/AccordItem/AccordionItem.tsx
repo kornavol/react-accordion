@@ -31,10 +31,9 @@ const AccordionItem = ({ data, onClickHandler, styles, show }: Iprops) => {
         </div>
       </div>
 
-        <div className={`accordion-item-text ${show ? 'show' : 'hide'}`}>
-          {parse(data?.properties?.text) || <p>'So far, there are no text'</p>}
-        </div>
-
+      <div className={`accordion-item-text ${show ? 'show' : 'hide'}`}>
+        {parse(data?.properties?.text) || <p>'So far, there are no text'</p>}
+      </div>
     </li>
   )
 }

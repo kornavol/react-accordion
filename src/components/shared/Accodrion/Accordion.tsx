@@ -1,7 +1,7 @@
 import { FC, memo, useState } from 'react'
 
 import './style.scss'
-import AccordionItem from './AccordItem/AccordionItem'
+import AccordionItem from './AccordItem/'
 
 import { Idb } from 'types/db'
 
