@@ -1,0 +1,53 @@
+.RBLSiteContentAccordion-accordion-item {
+  margin-top: 20px;
+  border-top: 1px solid grey;
+  width: 100%;
+  cursor: pointer;
+
+  .title-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+    align-items: baseline;
+    text-align: initial;
+
+    margin: 20px 0;
+
+    .title {
+      margin-right: 5px;
+      text-align: initial;
+      color: #1917bb;
+
+      &:hover {
+        color: red !important;
+      }
+    }
+
+    .chevron {
+      cursor: pointer;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+
+  .accordion-item-text {
+    padding: 0 5px;
+    text-align: left;
+  }
+}
+
+.rotate {
+  transform: rotate(130deg);
+}
+
+.show {
+  visibility: visible;
+}
+
+.hide {
+  visibility: collapse;
+  height: 0px;
+}

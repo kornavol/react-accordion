@@ -1,0 +1,14 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    width: calc(30% + 10rem);
+    margin: auto;
+
+    list-style-type: none;
+
+    transition: 0.5s ease-in-out;
+}
